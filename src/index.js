@@ -5,6 +5,7 @@ const init = () => {
   inputForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const input = document.querySelector('input#searchByID');
+    // this is a comment for testing learn gem
 
     //pointing to where to grab the information on server
     fetch(`http://localhost:3000/movies/${input.value}`)
